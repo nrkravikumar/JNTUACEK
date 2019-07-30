@@ -1,0 +1,8 @@
+declare an array
+   data-type array_name[size];
+   int xyz[6];  static declaration
+   4 or less 6
+   
+   int size;
+   scanf("%d",&size);
+   int xyz[size]; dynamic declaration

@@ -1,0 +1,27 @@
+Prime number or not using functions
+Prime numbers within range using functions
+Perfect number or not, using functions
+Special number or not, using functions
+
+Prob Des:
+There are N bootles,ith bottle has A[i] radius.Once the bottle is enclosed inside another bottle,it ceases to be visible.Mininmize the number of visible bottles.
+you can put ith bottle into jth bottle if the condition is fulfilled.
+1.ith bottle itself is not disclosed in any other bottle
+2.jth bottle doesnot enclose any other bottle
+3.radius of bottle i is smaller than bottle j.(A[i] < A[j])
+
+Constraints:
+1<= N <= 100000
+1<= A[i]<=10^18
+
+Input Format:
+First Line contains a single integer N denoting the number of bottles.
+Second line contains N space  seperated integers,ith integer denoting the radius of ith bottle.
+(i<= i <= N)
+
+Output: Minimum number of visible bottles.
+
+Test Case: 
+Input: 8
+       1 1 2 3 4 5 5 4
+output: 2
